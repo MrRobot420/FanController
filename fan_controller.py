@@ -35,10 +35,10 @@ def setup():
     GPIO.setup(pin, GPIO.OUT)
     global HIGHEST_TMP
     HIGHEST_TMP = loadTemperature(file_high)
-    print("[ INFO ] Highest temperature of all times: %.2f °C" % HIGHEST_TMP)
+    print("[ INFO ] Highest temperature ever measured:\t %.2f°C" % HIGHEST_TMP)
     global LOWEST_TMP
     LOWEST_TMP = loadTemperature(file_low)
-    print("[ INFO ] Lowest temperature of all times: %.2f °C\n" % LOWEST_TMP)
+    print("[ INFO ] Lowest temperature ever measured:\t %.2f°C\n" % LOWEST_TMP)
     fanON()
     return()
 
