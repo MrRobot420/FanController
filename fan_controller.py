@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ''' ###################### 
-    A simple GPIO-based Controller for the RaspberryPi (4B)
+    A simple GPIO-based Controller for the Raspberry Pi (4B)
 
     # INSTRUCTIONS:
         Just plug in your fan to GROUND, 5V and PIN 2.
